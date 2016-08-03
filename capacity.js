@@ -61,7 +61,6 @@ function DocsCoApi(options = {}) {
 	this.init();
 }
 DocsCoApi.prototype.init = function () {
-	console.log(this.serverId);
 	this.client =
 		new W3CWebSocket(this.server + '/doc/' + this.docId + '/c/' + this.serverId + '/' + this.sessionId + '/websocket');
 	this.client.onerror = () => {
