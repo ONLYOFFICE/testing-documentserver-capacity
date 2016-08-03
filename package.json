@@ -1,0 +1,9 @@
+{
+  "name": "testing-documentserver-capacity",
+  "version": "0.0.1",
+  "homepage": "https://www.onlyoffice.com",
+  "private": true,
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
