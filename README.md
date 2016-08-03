@@ -2,7 +2,7 @@
 Script for testing [ONLYOFFICE Document Server][2] capacity.
 
 ## Super simple to use
-    $ node capacity.js --debug --users 2 --documents 5 --server wss://doc.onlyoffice.com --file https://doc.onlyoffice.com/example/samples/sample.xlsx
+    $ node capacity.js --debug --users 2 --documents 5 --server wss://your-server.com --file https://your-server.com/sample.xlsx
 
 ## Installation
     $ npm install
